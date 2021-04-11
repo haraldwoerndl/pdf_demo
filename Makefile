@@ -8,11 +8,10 @@ build/htldemo.o: source/htldemo.c
 	cc -c source/htldemo.c -o build/htldemo.o
 
 build/htldemo: build/htldemo.o
-	ld -lhpdfs build/htldemo.o -o build/htldemo
+	cc build/htldemo.o -lhpdf -lm -o build/htldemo
 
 run: all
-	cd build
-	./htldemo output.pdf	
+	cd build ; ./htldemo
 
 clean:
 	rm -rf build
