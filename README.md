@@ -1,7 +1,10 @@
 # pdf_demo
 
 Ein Beispiel-Projekt für die Verwendung von github und make
-Dazu kommen noch externe Bibliotheken wie libhpdf, libmath, libz und libc
+Dazu kommen noch externe Bibliotheken wie libhpdf, libmath, libz und libc.
+
+**libhpdf** ist ein eigenes git-Projekt unter dem Link:
+https://github.com/libharu/libharu
 
 ## Die Aufgabe…
 
